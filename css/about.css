@@ -1,0 +1,321 @@
+#web-name {
+    font-family: 'Francois One', sans-serif;
+}
+
+#about {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.main-nav {
+    font-family: 'Francois One', sans-serif;
+}
+#aboutPage-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutPage-1>img {
+    width: 100%;
+    height: 700px;
+}
+
+#sologan {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: showtext 1s;
+}
+
+@keyframes showtext {
+    0% {
+        top: 450px;
+        opacity: 0;
+    }
+    100% {
+        top: 300px;
+        opacity: 1;
+    }
+}
+
+#aboutPage-2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+#aboutPage-2TextHeadline {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutPage-2Img {
+    width: 540px;
+}
+
+#aboutPage-2Text {
+    width: 60%;
+    padding-left: 60px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutPage-2Text>p {
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 25px;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: row;
+}
+
+.checklist>p {
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+
+#checklists {
+    padding-top: 20px;
+}
+
+.fa-check {
+    color: rgb(239, 108, 87);
+    padding-right: 8px;
+}
+
+
+/*page-3*/
+
+#aboutPage-3 {
+    width: 100%;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutPage-3Headline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutPage-3People {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutEachPerson {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutAvatar {
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+}
+
+.aboutName {
+    padding-top: 40px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutDescription {
+    width: 90%;
+    height: 170px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 25px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.icon {
+    color: rgb(239, 108, 87);
+    transform: scale(1);
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#aboutPage-3Icon {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 167px;
+    padding-right: 167px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*page-4*/
+
+#page-4 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#head-page-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigation-slide {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.bar {
+    padding: 28px;
+}
+
+.bar>i {
+    transform: scale(1.5);
+}
+
+
+/* slide-page-4 */
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.bar {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -50%;
+}
+
+.slide-box {
+    width: 1010px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 200%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+
+.img-page-4 {
+    width: 550px;
+    height: 600px;
+}
+
+.img-page-4>img {
+    width: inherit;
+    height: inherit;
+}
+
+.text-page-4 {
+    width: 550px;
+    height: 360px;
+    background-color: white;
+    margin-left: -90px;
+}
+
+.text-page-4>div {
+    padding: 56px;
+}
+
+.text-message-page-4 {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.author-page-4 {
+    margin-top: -90px;
+}
+
+.author-page-4>span {
+    color: rgb(239, 108, 87);
+    font-size: 20px;
+}
+
+.author-page-4>i {
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 20px;
+}
+
+#page-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 70px;
+}
+
+#page-end>h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    font-weight: 100;
+}
+
+#page-end>button {
+    background-color: rgb(239, 108, 87);
+    color: white;
+    width: 180px;
+    height: 55px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+#page-end>button:hover {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0, 0.8);
+    transition: 0.2s;
+}
