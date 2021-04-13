@@ -121,6 +121,7 @@
 .name-img {
     margin-top: -45px;
     font-size: 22px;
+    font-family: 'Playfair Display', serif;
     transition: 0.3s ease-out;
 }
 
