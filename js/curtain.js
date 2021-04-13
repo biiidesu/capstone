@@ -4,9 +4,9 @@ window.onload = () => {
         let html = document.querySelector('html')
         curtain.style.opacity = '0'
         html.style.overflow = 'auto'
-    },3500)
+    },2500)
         setTimeout(() => {
             let curtain = document.querySelector('.curtain')
             curtain.style.display = 'none'
-        }, 4500)
+        }, 3500)
     }
